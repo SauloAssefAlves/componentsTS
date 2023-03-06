@@ -1,0 +1,25 @@
+.container {
+  height: 100dvh;
+  display: flex;
+  background-color: #242424;
+  color: rgba(17, 16, 16, 0.87);
+  justify-content: start;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 0px 50px;
+}
+.card {
+  background-color: #3d3d3d;
+  border-radius: 10px;
+  /* box-shadow: #242424; */
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+
+  padding: 30px;
+}

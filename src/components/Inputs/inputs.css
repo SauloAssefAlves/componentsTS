@@ -1,0 +1,57 @@
+.select_menu {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.select_menu .select_btn {
+  display: flex;
+  height: 55px;
+  background-color: #fff;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.select_btn i {
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.select_menu .options {
+  position: relative;
+  padding: 16px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.options .option {
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background: #fff;
+}
+
+.options .option:hover {
+  background: #f2f2f2;
+}
+
+.option i {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.option .option_text {
+  font-size: 18px;
+  color: #333;
+}
